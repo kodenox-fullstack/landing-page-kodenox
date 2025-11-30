@@ -12,8 +12,30 @@ public/assets/documents/*
 src/assets/images/*
 src/assets/videos/*
 src/assets/documents/*
-!public/assets/images/.gitkeep
-!src/assets/images/.gitkeep
+Images/
+public/Images/
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.webm
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+
+# Keep only essential assets
+!src/assets/logo-kodenox.png
+!public/logo-kodenox.png
+!.gitkeep
 
 # Build outputs
 dist

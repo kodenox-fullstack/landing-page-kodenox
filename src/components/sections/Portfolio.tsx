@@ -9,6 +9,7 @@ import {
   CardHeader,
   CardTitle,
 } from '@/components/ui/card';
+import finusaiImage from '@/assets/finusai.png';
 
 const Portfolio = () => {
   const [activeFilter, setActiveFilter] = useState('all');
@@ -21,7 +22,7 @@ const Portfolio = () => {
         'Providing practical solutions to address low financial literacy and impulsive spending behavior through a simple record-keeping application and personalized AI recommendations.',
       category: 'android',
       tech: ['Flutter', 'Python', 'SQL', 'Stripe'],
-      image: '/api/placeholder/600/400',
+      image: finusaiImage,
       link: '#',
       github: '#',
       featured: true,
@@ -214,10 +215,12 @@ const Portfolio = () => {
                     </div>
                   )}
                   <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="w-16 h-16 bg-gradient-to-r from-[#00b3f5] to-[#005fd1] rounded-xl flex items-center justify-center">
-                      <span className="text-xl font-bold text-white">
-                        {project.title.charAt(0)}
-                      </span>
+                    <div className="w-16 h-16 bg-gradient-to-r from-[#00b3f5] to-[#005fd1] rounded-xl overflow-hidden">
+                      <img
+                        src={project.image}
+                        alt={project.title}
+                        className="object-cover w-full h-full"
+                      />
                     </div>
                   </div>
                 </div>
@@ -291,7 +294,7 @@ const Portfolio = () => {
             viewport={{ once: true }}
           >
             <p className="text-lg text-muted-foreground">
-              Tidak ada project dalam kategori ini.
+              There are no projects in this category.
             </p>
           </motion.div>
         )}
