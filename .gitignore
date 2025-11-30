@@ -9,10 +9,8 @@ pnpm-debug.log*
 public/assets/images/*
 public/assets/videos/*
 public/assets/documents/*
-src/assets/images/*
 src/assets/videos/*
 src/assets/documents/*
-Images/
 public/Images/
 *.jpg
 *.jpeg

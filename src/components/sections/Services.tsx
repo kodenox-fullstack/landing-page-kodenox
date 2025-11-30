@@ -13,9 +13,9 @@ const Services = () => {
   const services = [
     {
       icon: Globe,
-      title: 'Jasa Pembuatan Website',
+      title: 'Website Development Services',
       description:
-        'Website profesional dan modern dengan teknologi terkini. Responsive design dan SEO optimized.',
+        'A professional and modern website built with the latest technologies. Responsive design and SEO-optimized.',
       features: [
         'Responsive Design',
         'SEO Friendly',
@@ -27,9 +27,9 @@ const Services = () => {
     },
     {
       icon: Smartphone,
-      title: 'Jasa Pembuatan Android',
+      title: 'Android App Development Services',
       description:
-        'Aplikasi Android native yang powerful dan user-friendly untuk iOS dan Android.',
+        'A powerful and user-friendly native mobile application for both iOS and Android.',
       features: [
         'Native Performance',
         'Cross-Platform',
@@ -43,7 +43,7 @@ const Services = () => {
       icon: Palette,
       title: 'UI/UX Design',
       description:
-        'Desain interface yang menarik dan user experience yang optimal untuk produk digital Anda.',
+        'An attractive interface design with an optimal user experience for your digital product.',
       features: [
         'User Research',
         'Wireframing',

@@ -9,7 +9,7 @@ import {
   CardHeader,
   CardTitle,
 } from '@/components/ui/card';
-import finusaiImage from '@/assets/finusai.png';
+import finusaiImage from '@/assets/images/finusai.png';
 
 const Portfolio = () => {
   const [activeFilter, setActiveFilter] = useState('all');
