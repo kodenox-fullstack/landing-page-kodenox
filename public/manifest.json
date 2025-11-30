@@ -1,0 +1,55 @@
+{
+  "name": "Kodenox - Software House Terpercaya",
+  "short_name": "Kodenox",
+  "description": "Professional Software House specializing in Web and Android development. Terpercaya untuk jasa pembuatan website dan aplikasi Android.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#87d5e1",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "categories": ["business", "productivity", "developer"],
+  "lang": "id-ID",
+  "dir": "ltr",
+  "scope": "/",
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "Konsultasi Gratis",
+      "short_name": "Konsultasi",
+      "description": "Konsultasikan kebutuhan digital Anda",
+      "url": "/#contact",
+      "icons": [{ "src": "/favicon-96.png", "sizes": "96x96" }]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Kodenox Software House Website"
+    },
+    {
+      "src": "/screenshot-mobile.png",
+      "sizes": "375x667",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Kodenox Mobile View"
+    }
+  ]
+}
