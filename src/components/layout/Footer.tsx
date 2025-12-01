@@ -8,12 +8,16 @@ const Footer = () => {
   const socialLinks = [
     { icon: Github, href: '#', label: 'GitHub' },
     { icon: Linkedin, href: '#', label: 'LinkedIn' },
-    { icon: Mail, href: 'mailto:hello@kodenox.com', label: 'Email' },
+    { icon: Mail, href: 'mailto:kodenox2025@gmail.com', label: 'Email' },
   ];
 
   const contactInfo = [
-    { icon: Mail, text: 'hello@kodenox.com', href: 'mailto:hello@kodenox.com' },
-    { icon: Phone, text: '+62 812-3456-7890', href: 'tel:+6281234567890' },
+    {
+      icon: Mail,
+      text: 'kodenox2025@gmail.com',
+      href: 'mailto:kodenox2025@gmail.com',
+    },
+    { icon: Phone, text: '+62 882-1188-7538', href: 'tel:+6288211887538' },
     { icon: MapPin, text: 'Jakarta, Indonesia', href: '#' },
   ];
 
